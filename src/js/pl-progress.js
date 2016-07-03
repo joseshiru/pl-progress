@@ -21,7 +21,7 @@
                 pluginSettings.containerHTML = "<div>";
                 pluginSettings.containerClass = "p-loading-container pl-progress-spinner-container";
                 pluginSettings.spinnerClass = "pl-progress-spinner";
-                pluginSettings.spinnerHTML = '<progress max="100" value="0"></progress>';
+                pluginSettings.spinnerHTML = "<progress max="100" value="0"></progress>";
             };
 
             addOnAction.addNewActions = function() {

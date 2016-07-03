@@ -1,6 +1,8 @@
 {
   "name": "pl-progress-bar",
-  "version": "0.5.0",
+  "version": "0.5.1",
+  "main": "dist/js/pl-progress.min.js",
+  "style": "dist/css/pl-progress.min.css",
   "description": "Progress bar add-on for P-loading.",
   "keywords": [
     "jquery-plugin",
