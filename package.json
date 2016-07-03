@@ -1,0 +1,63 @@
+{
+  "name": "pl-progress-bar",
+  "version": "0.5.0",
+  "description": "Progress bar add-on for P-loading.",
+  "keywords": [
+    "jquery-plugin",
+    "jquery",
+    "loading",
+    "spinner",
+    "mask",
+    "plugins",
+    "p-loading",
+    "progress-bar",
+    "progress bar",
+    "progress",
+    "p-loading plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joseshiru/pl-progress-bar"
+  },
+  "bugs": {
+    "url": "https://github.com/joseshiru/pl-progress-bar/issues"
+  },
+  "author": {
+    "name": "Jose Zuniga",
+    "email": "jose_zuma@hotmail.com",
+    "url": "https://github.com/joseshiru"
+  },
+  "homepage": "https://github.com/joseshiru/pl-progress-bar",
+  "contributors": [
+    {
+      "name": "Jose Zuniga",
+      "email": "jose_zuma@hotmail.com",
+      "url": "https://github.com/joseshiru"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.5.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs": "^2.7.0",
+    "grunt-karma": "^0.12.0",
+    "jscs": "^2.10.1",
+    "karma": "^0.13.21",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-qunit": "^0.1.5",
+    "phantomjs": "^1.9.18",
+    "qunitjs": "^1.19.0"
+  },
+  "scripts": {
+    "jscs": "jscs src",
+    "test": "npm run jscs && grunt travis --verbose"
+  }
+}
