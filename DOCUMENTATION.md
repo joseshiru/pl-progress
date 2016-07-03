@@ -26,9 +26,6 @@ Then include the CSS file after the P-loading CSS file:
 
 
 
-### Actions
-The property "action" of the settings object that is passed as parameter to the ploading plugin, allows us to 
-
 ##### New Settings
 
 Property              | Description       | Default value
@@ -37,7 +34,10 @@ action                | Executes a function of the pluginPublicAction object | s
 progress         | Value to set to the progress bar | 0
 hideAfter        | Container Attributes and custom attributes (class,id,for,etc) | undefined
 
-#### Add-on actions
+
+### Actions
+The property "action" of the settings object that is passed as parameter to the ploading plugin, allows us to 
+
 
 Property              | Description       
 -------------         | -------------     
