@@ -5,7 +5,7 @@
 	var $testCanvas = $( "#testCanvas" );
 	var $fixture = null;
 
-	QUnit.module( "P-Loading", {
+	QUnit.module( "Pl-progress", {
 		beforeEach: function() {
 
 			// fixture is the element where your jQuery plugin will act

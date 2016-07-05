@@ -1,5 +1,5 @@
 /*
- *  pl-progress-bar - v0.5.0
+ *  pl-progress-bar - v0.5.1
  *  Progress bar add-on for P-loading.
  *  https://github.com/joseshiru/pl-progress-bar
  *
@@ -21,7 +21,7 @@
                 pluginSettings.containerHTML = "<div>";
                 pluginSettings.containerClass = "p-loading-container pl-progress-spinner-container";
                 pluginSettings.spinnerClass = "pl-progress-spinner";
-                pluginSettings.spinnerHTML = '<progress max="100" value="0"></progress>';
+                pluginSettings.spinnerHTML = "<progress max='100' value='0'></progress>";
             };
 
             addOnAction.addNewActions = function() {

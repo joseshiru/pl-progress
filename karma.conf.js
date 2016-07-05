@@ -3,7 +3,8 @@ module.exports = function( config ) {
 	config.set( {
 		files: [
 			"node_modules/jquery/dist/jquery.js",
-			"dist/js/p-loading.js",
+			"node_modules/p-loading/dist/js/p-loading.js",
+			"dist/js/pl-progress.js",
 			"test/setup.js",
 			"test/spec/*"
 		],
