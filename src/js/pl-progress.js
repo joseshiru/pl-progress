@@ -1,12 +1,3 @@
-/*
- *  pl-progress-bar - v0.5.1
- *  Progress bar add-on for P-loading.
- *  https://github.com/joseshiru/pl-progress-bar
- *
- *  Made by Jose Zuniga
- *  Under MIT License
- */
-
 ( function( $ ) {
     "use strict";
 

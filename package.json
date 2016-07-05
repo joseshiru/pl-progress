@@ -1,6 +1,6 @@
 {
   "name": "pl-progress-bar",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "main": "dist/js/pl-progress.min.js",
   "style": "dist/css/pl-progress.min.css",
   "description": "Progress bar add-on for P-loading.",
@@ -19,17 +19,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/joseshiru/pl-progress-bar"
+    "url": "https://github.com/joseshiru/pl-progress"
   },
   "bugs": {
-    "url": "https://github.com/joseshiru/pl-progress-bar/issues"
+    "url": "https://github.com/joseshiru/pl-progress/issues"
   },
   "author": {
     "name": "Jose Zuniga",
     "email": "jose_zuma@hotmail.com",
     "url": "https://github.com/joseshiru"
   },
-  "homepage": "https://github.com/joseshiru/pl-progress-bar",
+  "homepage": "https://github.com/joseshiru/pl-progress",
   "contributors": [
     {
       "name": "Jose Zuniga",
